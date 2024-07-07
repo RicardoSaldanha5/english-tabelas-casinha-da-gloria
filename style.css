@@ -307,3 +307,82 @@ footer .footer-contact a i {
         text-align: center;
     }
 }
+/* Nota de aviso */
+.warning-section{
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.warning-section h2 {
+    color: #856404;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.conditions {
+    color: #856404;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#cance {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .warning-section {
+        padding: 15px;
+    }
+
+    .warning-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .conditions {
+        font-size: 1rem;
+    }
+}
+
+/* Estilo para o btão voltar */.back-to-home {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.back-to-home p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: var(--deep-green);
+}
+
+.back-to-home a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: var(--deep-green);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-home a.button:hover {
+    background-color: #e8491d;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .back-to-home p {
+        font-size: 1em;
+    }
+
+    .back-to-home a.button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
